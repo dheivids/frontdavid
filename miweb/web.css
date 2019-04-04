@@ -1,0 +1,23 @@
+
+body {
+    background-color: rgba(231, 182, 21, 0.767);
+}
+img {
+    width: 50%;
+
+}
+img{
+    display:block;
+    margin:auto;
+
+    }
+    h1 {
+        text-align: center;
+        background-color: grey;
+        margin: 50px;
+        padding: 10px;
+        
+
+
+    }
+   
