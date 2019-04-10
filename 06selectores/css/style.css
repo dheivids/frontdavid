@@ -1,0 +1,22 @@
+/* selector de descendientes :el operador es el espacio */
+
+ section p {
+    color:rgb(225, 65, 65);
+}
+
+/* selector del hijo: operador > */
+section>p {
+    color:blue;
+
+
+
+
+}
+/*  selector de hermanos que usa el operador ~ (alt gr 4)  llamado virguilla*/
+div ~p {
+    color:greenyellow;
+}
+    /*selector de hermanos adyacentes : opoerador simbolo +*/
+    div+p {
+        color: darkgoldenrod;
+    }

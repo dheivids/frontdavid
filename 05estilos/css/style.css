@@ -1,0 +1,38 @@
+/*selector de etiqueta y agrupados*/
+
+h1  {
+    color:blue;
+    }
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+    p {
+        color:orange;
+    }
+
+      /* selectores de id */
+      /* buena practica: NO SE USAN */
+
+
+    #p01{
+        color: rgb(47, 95, 255);
+    }
+    /* selectores de clase */
+    .resaltado{
+        color:rgb(221, 16, 43);
+    }
+
+  /*   selctores de atributo*/
+ 
+    [name="nombre"]{
+
+        background-color: rgba(178, 248, 16, 0.932)
+    }
+    [requierd]{
+        border-color:red;
+    }
