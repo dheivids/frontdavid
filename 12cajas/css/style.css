@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box; 
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cuadrados p {
+    width: 18%;
+    float: left;
+    margin: calc(calc(100% - calc(18%*5)) / 10);
+    padding: 1rem;
+    background-color: rgb(36, 241, 214);
+    border: 1px solid;
+   
+}
+
+.clearfix {
+    clear: both;
+}
+
+.real {
+    margin: 2rem;
+
+}
+
+.real p {
+  
+    float: left;
+    width: 33.33;
+}
+
+.real p:not(:first-child) {
+    float: left;
+    width: 33.33%;
+    padding-left: 1rem;
+}
