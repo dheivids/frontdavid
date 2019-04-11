@@ -1,0 +1,49 @@
+/* :: indica que es pseudoelemento */
+
+section p::first-letter {
+
+    font-size: 4rem;
+}
+ /* primera palabra del parrafo se pone mas grande */
+aside p::first-line {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/* todos los parrafos que esten en un section dentro de div */
+section div p::before {
+    content: "!!"
+}
+
+/* para marcar cuando pones raton encima es hover */
+P:hover {
+    color:red;
+}
+
+  a, a:visited {
+
+    color: rgba(0, 102, 255, 0.836);
+ }
+
+/*  todos los parafos que esten en cualquier cosa y es primer hijo se pinta naranja */
+  section p:nth-child(1) {
+    color:orange;
+}
+
+ section p:nth-of-type(1) {
+     color: orange;
+ }
+
+ /* font family se puede descargar de google fonts */
+ body {
+    font-family: 'Playfair Display', serif;
+    border: 1px solid; 
+ }
+ /* herencia:
+ -la fuente si se hereda
+ -el borde no se hereda
+ */
+ header {
+    font-family: 'Special Elite', cursive;
+ }
+
+ 
