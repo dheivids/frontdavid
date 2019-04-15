@@ -1,11 +1,15 @@
+*, ::after, * ::before, *:after, *:before{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 .main-header {
-    background-color: brown;
-    color: bisque;
+    background-color: rgba(42, 165, 73, 0.555);
+    color:rgb(20, 85, 204);
     padding: 2rem;
     font-family: 'Permanent Marker', cursive;
 }
@@ -23,6 +27,14 @@ body {
 .main-header p {
     margin-bottom: 0;
     margin-top: 0.2rem;
+    /* display: none; */
+    visibility: hidden;
+}
+
+.main-header:hover p {
+        /* aparece y desaparece  */
+    display: initial;
+    visibility: initial;
 }
 
 .menu ol, .menu ul {
@@ -47,6 +59,7 @@ body {
 
 .main-menu li {
     display: inline-block;
+    
 }
 
 .main-menu a {
@@ -56,11 +69,43 @@ body {
 
 .content-wrapper {
     margin: 2rem;
+    /* overflow: auto; */
+}
+/* .content-wrapper::after{
+
+        content: "";
+        display: block;
+        clear: both;
+} */
+.main-content{
+
+    width: 70%;
+    float: left;
+    background-color: grey;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.main-aside{
+    width: 30%;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color:rgb(64, 212, 223);
+    border: 1px solid;
+    
+
+}
+
+.clearfix{
+    clear: both;
+    margin-bottom: 2rem;
 }
 
 .main-footer {
-    background-color: brown;
-    color: bisque;
+    background-color: rgba(42, 165, 73, 0.555);
+    color:rgb(20, 85, 204);
     padding-top: 1.2rem;
     padding-bottom: 1.5rem;
     text-align: center;
