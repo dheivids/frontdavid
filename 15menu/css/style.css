@@ -1,5 +1,8 @@
 *, ::after, * ::before, *:after, *:before{
     box-sizing: border-box;
+
+   /*  border-box le dice al navegador tomar en cuenta para cualquier valor que se especifique de borde o de relleno para el ancho o alto de un elemento. Es decir, si se define un elemento con un ancho de 100 pixeles. Esos 100 pixeles incluíran cualquier borde o relleno que se añadan, y la caja de contenido se encogerá para absorber ese ancho extra. Esto típicamente hace mucho más fácil dimensionar elementos.
+ */
 }
 
 body {
@@ -51,7 +54,7 @@ body {
 .main-menu {
     border: 1px solid;
     border-radius: 5px;
-    width: fit-content;
+    width: fit-content; /* ancho del contenido */
     position: absolute;
     top: 2px;
     right: 1rem;
@@ -78,7 +81,7 @@ body {
         clear: both;
 } */
 .main-content{
-
+/* porcentaje del contenedor 70 y el otro tendra 30 asi queda uno al lado del otro */
     width: 70%;
     float: left;
     background-color: grey;
@@ -88,6 +91,7 @@ body {
 
 
 .main-aside{
+   /*  porcentaje 30  */
     width: 30%;
     float: left;
     padding-left: 1rem;
