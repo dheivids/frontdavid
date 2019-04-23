@@ -11,36 +11,28 @@ let edad = 44 //declarar e inicializar
 let data
 console.log(data)
 console.log(typeof data)
+function suma(x, y) {
+    let r = x + y
+    return r
+}
+
+function mostrar(texto) {
+    console.log(texto)
+}
+
+let number1 = 23
+let number2 = 20
+// console.log(r) daria un error
+let result = suma(number1, number2)
+mostrar( result )
 
 
-// strings
-data = 'hola amigos'
-console.log (data)
-console.log(typeof data)
+// No se cumple la separación de intereses o conceptos (separation of concerns)
 
-//numbers
-data = 35
-console.log(data)
-console.log(typeof data)
+function sumarMal(x, y) {
+    let r = x + y
+    console.log(r)
+}
 
-//booleans
-data = true
-data = false
-console.log(data)
-console.log(typeof data)
-
-//object
-data = { nombre : 'David', edad : 44}
-
-//object tipo array 
-data =[23,45.78]
-data = ['lunes', 'martes', 23, 78, true, undefined, {}]
-console.log(data)
-console.log(typeof data)
-
-
-function mostrar() {}
-
-
-console.log(mostrar)
-console.log(typeof mostrar)
+sumarMal(2,5)
+© 2019 GitHub, Inc.

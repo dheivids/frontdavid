@@ -1,54 +1,42 @@
-// En ES6 se utilizan let y const para decalrar variables
+// En ES6 se utizan let y const para declarar variables
 
-let nombre  //declarar variable
-nombre = 'David'  //inicializar
+let nombre // Declarar
+nombre = 'Pepe' // Inicializar
 
-let edad = 44 //declarar e inicializar
+let edad = 34 // Declarar e inicializar
 
-// Tipos de datos 
+// Tipos de datos
 
-
-
-//undefined
+// undefined
 let data
-console.log(data)
-console.log(typeof data)
+mostrar(data)
 
-// A- datas primitivos son estos:
 // strings
-data = 'hola amigos'
-console.log (data)
-console.log(typeof data)
+data = 'Hola amigos'
+mostrar(data)
 
-//numbers
+// numbers
 data = 35
-console.log(data)
-console.log(typeof data)
+mostrar(data)
 
-//booleans
+// booleans
 data = true
 data = false
-console.log(data)
-console.log(typeof data)
+mostrar(data)
 
-// B datos referenciales
-//object
-data = { nombre : 'David', edad : 44}
+// object
+data = { name: 'Pepe', age: 34}
+mostrar(data)
 
-//object tipo array 
-data =[23,45.78]
-data = ['lunes', 'martes', 23, 78, true, undefined,{}]
-console.log(data)
-console.log(typeof data)
+// object tipo array
+data = [23, 45, 78]
+data = ['Lunes', 'Martes', 23, 78, true, undefined, {}]
+mostrar(data)
 
-
-function mostrar( input) { 
-
-        console.log('el dato recibido es',input)
-        console.log('el tipo de dato es', typeof input)
-        console.log('---------')
+function mostrar(input) {
+    console.log('El dato recibido es ', input)
+    console.log('El tipo del dato es ', typeof input)
+    console.log('------------')
 }
 
-
-console.log(mostrar)
-console.log(typeof mostrar)
+mostrar(mostrar)

@@ -2,29 +2,32 @@ let data = 20
 data = 30
 
 console.log(data)
+let data = 20
+data = 30
 
-const DATA = 25 
-//DATA = 50 daria un error
+console.log(data)
+
+const DATA = 25
+// DATA = 50 daría un error
 
 console.log(DATA)
 
-const user = {   //esto es un objeto
-    name: 'David',
+const user = {
+    name: 'Pepe',
     edad: 25
 }
 
-//java /c#.... son lenguajes orientados a objetos (LOO ) basados en  clases
-//user1 = new User()
+// Java / C# ... son LOO basados en clases
+// user1 = new User()
 
-//Js es un lenguaje oreintado a objetos basado  en prototipos y objetos literales
+// JS es un LOO basado en protoipos y objetos literales
 
-user.altura = 184
-user.name = 'Jose'
+user.altura = 179
+user.name = 'Carlos'
 
-console.log(user)
-console.log(user.name)
-console.log(user.edad)
+user = 23
 
-
-
+console.log (user)
+console.log (user.name)
+console.log (user.edad)
 

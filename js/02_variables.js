@@ -1,46 +1,52 @@
-// En ES6 se utilizan let y const para decalrar variables
+// En ES6 se utizan let y const para declarar variables
 
-let nombre  //declarar variable
-nombre = 'David'  //inicializar
+let nombre // Declarar
+nombre = 'Pepe' // Inicializar
 
-let edad = 44 //declarar e inicializar
+let edad = 34 // Declarar e inicializar
 
-// Tipos de datos 
+// Tipos de datos
 
-//undefined
+
+
+// undefined
 let data
 console.log(data)
 console.log(typeof data)
 
 
+// A - DATAS Primitivos
+
 // strings
-data = 'hola amigos'
-console.log (data)
+data = 'Hola amigos'
+console.log(data)
 console.log(typeof data)
 
-//numbers
+// numbers
 data = 35
 console.log(data)
 console.log(typeof data)
 
-//booleans
+// booleans
 data = true
 data = false
 console.log(data)
 console.log(typeof data)
 
-//object
-data = { nombre : 'David', edad : 44}
+// B - Datos referenciados
 
-//object tipo array 
-data =[23,45.78]
-data = ['lunes', 'martes', 23, 78, true, undefined,{}]
+// object
+data = { name: 'Pepe', age: 34}
 console.log(data)
 console.log(typeof data)
 
+// object tipo array
+data = [23, 45, 78]
+data = ['Lunes', 'Martes', 23, 78, true, undefined, {}]
+console.log(data)
+console.log(typeof data)
 
 function mostrar() {}
-
 
 console.log(mostrar)
 console.log(typeof mostrar)
