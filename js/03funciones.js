@@ -34,5 +34,4 @@ function sumarMal(x, y) {
     console.log(r)
 }
 
-sumarMal(2,5)
-© 2019 GitHub, Inc.
+sumarMal(342,55)

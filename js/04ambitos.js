@@ -15,7 +15,7 @@ function prueba() {
 
 
 // Lo mismo con BUENAS PRACTICAS
-
+/* let variable global porque esta declarada fuera */
 let var2 = 30
 pruebaBien(var2)
 
@@ -26,7 +26,8 @@ function pruebaBien (x) {
 }
 
 // Nuevo en ES6 usar let en lugar de var
-
+/* Un bloque de codigo esta entre llaves {} */ 
+/* Variable dentro del bloque de codigo es una variable local */
 function condicional() {
     let ext = 22
     if(true) {

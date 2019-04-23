@@ -1,14 +1,20 @@
+
+
 // En ES6 se utizan let y const para declarar variables
 
-let nombre // Declarar
-nombre = 'Pepe' // Inicializar
+let nombre // Declarar variable
+nombre = 'Pepe' // Inicializar variable
 
 let edad = 34 // Declarar e inicializar
 
 // Tipos de datos
 
+/* En otros lenguajes hay declaracion EXPLICITA Y OBLIGATORIA de tipos int x -> variable de tipo entero sin valor */
 
-
+/* En JS los tipos son 
+-debiles: que no se declaran explicitamente: son IMPLICITOS al valor
+-dinamicos:no se declaran y pueden cambiar
+ */
 // undefined
 let data
 console.log(data)
