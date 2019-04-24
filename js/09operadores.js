@@ -68,3 +68,4 @@ y %= 2
         'No se admiten'
     ]
     console.log(mensaje[i])
+
