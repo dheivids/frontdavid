@@ -26,10 +26,11 @@ function main() {
           urlTemp = urlTemp.slice(0, urlTemp.indexOf('/'))
         /*  console.log(urlTemp) */
 
-        console.log(url.split('/')[2])
+        console.log(url.split('/')[1])
 
         console.log(url[12])// cuenta posicion concreta en este caso la 12
 
 }
 
 main()
+
