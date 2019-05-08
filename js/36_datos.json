@@ -1,0 +1,5 @@
+
+//archivo JSON  va todo entre comillas dobles
+{"nombre" : "Pepe",
+"edad": 23,
+"curso": "Front"}
