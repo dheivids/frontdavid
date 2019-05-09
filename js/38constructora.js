@@ -31,7 +31,8 @@ function Mascota(nombre, especie, raza = ''){
 
 let user2 = new User('elena', 23)
 let user3 = new User ( 'Hugo', 40)
-let Mascota1 = new Mascota ('Cesar', 'Perro')
+let mascota1 = new Mascota ('Cesar', 'Perro')
+let mascota2 = new Mascota ('Titus',  'gato', 'persa')
 
 
 console.log(user1)
@@ -42,7 +43,8 @@ console.log(mascota1)
 user1.saludar('David')
 user2.saludar('Sandra')
 user3.saludar(user2.nombre)
-mascota1.saludar(user1.nombre)
+user1.saludar(mascota1.raza  +  ''  + mascota1.nombre)
+user3.saludar(mascota2.raza  +  ''  + mascota2.nombre)
 
 /* function saludar(user2){   /////////////FUNCION SUELTA////////////
     console.log(`hola, soy ${user}`)
