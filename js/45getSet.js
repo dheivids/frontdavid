@@ -4,11 +4,14 @@
 let persona = {
     nombre: 'Pepe',
     nacim : new Date(1965, 8, 31),
-    get edad () { //funcion que parece propiedad 
+    calcularEdad : function () {
+      return parseInt(((new Date() - this.nacim )/(1000*60*60*24*365)))
+    },
+    get edad () {
         return parseInt(((new Date() - this.nacim )/(1000*60*60*24*365)))
     },
     amigos: [],
-    set nuevoAmigo(amigo) { //metodo de tipo set
+    set nuevoAmigo(amigo) {
       this.amigos.push(amigo);
     }   
 }
@@ -16,17 +19,18 @@ let persona = {
 persona.nuevoAmigo = 'Antonio'
 console.log(persona)
 console.log(persona.edad)
-console.log(persona.nacim)
+console.log(persona.calcularEdad())
 
 /**
- * En Java, c#.....
+ * 
+ * En Java, C#...
  * 
  * class Persona {
- * private edad
+ *  private edad
  * }
  * 
  * p1 = new Persona()
- * pi.edad = 23 //ERROR
- * console.log (pi.edad)//ERROR 
+ * p1.edad = 23 // Error
+ * console.log(p1.edad) // Error
  * 
  */
