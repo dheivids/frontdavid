@@ -24,6 +24,7 @@ function onInputNombre(){
 }
 
 function borrar(){
-
+        inNombre.value = ''
+        onInputNombre()
 }
 }
