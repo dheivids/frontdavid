@@ -1,0 +1,17 @@
+.question {
+    color:rgba(255, 0, 43, 0.849);
+    cursor: pointer;
+    font-size: 1.2;
+}
+
+.question::before{
+    content: '¿';
+}
+.question ::after {
+ content: '?';
+}
+.destacado {
+    font-size: 1.4 rem;
+    color: bisque;
+    background-color: rgba(0, 47, 255, 0.959);
+}
