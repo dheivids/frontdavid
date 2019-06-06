@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header, footer {
+    background-color: rgb(28, 228, 201);
+    color: rgb(103, 69, 226);
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+fieldset {
+    border-color: rgb(149, 235, 12);
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.control-group,
+.check-group,
+.radio-group,
+.button-group {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.control-group label,
+.control-group input,
+.control-group textarea,
+.control-group select
+ {
+    display: block;
+    width: 100%
+}
+
+.control-group input,
+.control-group textarea,
+.control-group select
+{
+    border: none;
+    padding-top: 0.6rem;
+    border-bottom: 1px solid rgb(245, 114, 250)
+}
+
+.button-group  button{
+    font-weight: bold;
+    color: rgba(9, 12, 216, 0.815);
+    padding: 0.6rem;
+
+}
