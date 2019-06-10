@@ -1,4 +1,3 @@
-
 export function controller() {
     console.log('Controller cargado')
 

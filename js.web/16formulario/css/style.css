@@ -8,8 +8,8 @@ body {
 }
 
 header, footer {
-    background-color: rgb(28, 228, 201);
-    color: rgb(103, 69, 226);
+    background-color: brown;
+    color: bisque;
     min-height: 10vh;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ header, footer {
 }
 
 fieldset {
-    border-color: rgb(149, 235, 12);
+    border-color: salmon;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
 }
@@ -50,12 +50,12 @@ fieldset {
 {
     border: none;
     padding-top: 0.6rem;
-    border-bottom: 1px solid rgb(245, 114, 250)
+    border-bottom: 1px solid salmon
 }
 
 .button-group  button{
     font-weight: bold;
-    color: rgba(9, 12, 216, 0.815);
+    color: salmon;
     padding: 0.6rem;
 
 }
