@@ -1,3 +1,4 @@
+    
 export const GENEROS = [
     {value:'', label: ''},
     {value:'P', label: 'Policiaco', autores : [
@@ -16,3 +17,5 @@ export const GENEROS = [
         {value:'Shelly,Mary', label: 'Mary Shelley'},
     ]}
 ]
+
+// https://www.googleapis.com/books/v1/volumes?q=inauthor:${xxxxxx}&fields=items(volumeInfo(publisher,title,language))
