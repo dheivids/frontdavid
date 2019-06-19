@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    background-color: rgb(10, 60, 224);
+    color: white;
+    padding: 2rem 0rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
