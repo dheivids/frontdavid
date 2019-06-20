@@ -1,0 +1,33 @@
+
+body {
+    background-color: dimgray;
+}
+section {
+    min-height: 80vh;
+    display: flex;
+    
+   
+   justify-content: center;
+   /*Alineacion en el eje secundario : por defecto stretch*/
+   align-items: right;
+}
+
+.item-flex {
+    background-color:rgba(14, 36, 233, 0.918);
+    text-align: center;
+    padding: 8rem;  
+} 
+H1 {
+    text-align: center;
+    color: blue;
+}
+
+header {
+    background-color: rgb(10, 146, 236);
+    padding: 3rem;
+}
+ footer {
+     background-color: rgb(10, 146, 236);
+     padding: 3rem;
+     
+ }
