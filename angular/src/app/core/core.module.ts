@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
   declarations: [HeaderComponent, FooterComponent, MenuComponent],
   imports: [
     CommonModule,
-    RouterModule,
+    RouterModule
   ],
   exports: [HeaderComponent, FooterComponent]
 })

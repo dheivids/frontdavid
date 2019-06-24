@@ -15,7 +15,7 @@ export class FooterComponent implements OnInit  {
    }
 
   ngOnInit() {
-    this.autor = 'DAVID MARCOS';
+    this.autor = 'Aleajndro Cerezo';
     this.empresa = 'CIFE - Fuenlabrada';
     this.fecha = new Date();
   }
